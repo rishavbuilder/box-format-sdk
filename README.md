@@ -2,8 +2,8 @@
 
 A Kotlin SDK for the Box archive format — a binary container format with built-in checksums, metadata, and extensible section-based design.
 
-[![License](https://img.shields.io/github/license/rishavbuilder/.Box)](LICENSE)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/rishavbuilder/.Box/ci.yml)](https://github.com/rishavbuilder/.Box/actions)
+[![License](https://img.shields.io/github/license/rishavbuilder/box-sdk)](LICENSE)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/rishavbuilder/box-sdk/ci.yml)](https://github.com/rishavbuilder/box-sdk/actions)
 
 ## Project status
 
@@ -23,8 +23,8 @@ Planned: compression, streaming, encryption.
 ## Quick start
 
 ```bash
-git clone https://github.com/rishavbuilder/.Box.git
-cd .Box
+git clone https://github.com/rishavbuilder/box-sdk.git
+cd box-sdk
 ./gradlew :samples:run
 ```
 
