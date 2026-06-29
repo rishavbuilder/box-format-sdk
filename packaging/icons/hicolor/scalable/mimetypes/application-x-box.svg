@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4FC3F7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0277BD;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="flapGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#81D4FA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#29B6F6;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="120%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  
+  <!-- Box body -->
+  <rect x="18" y="42" width="92" height="72" rx="4" ry="4" fill="url(#boxGrad)" filter="url(#shadow)"/>
+  
+  <!-- Box body darker front edge -->
+  <rect x="18" y="100" width="92" height="14" rx="4" ry="4" fill="#01579B" opacity="0.3"/>
+  
+  <!-- Left flap -->
+  <polygon points="18,42 64,22 64,42" fill="url(#flapGrad)" stroke="#0277BD" stroke-width="1"/>
+  
+  <!-- Right flap -->
+  <polygon points="110,42 64,22 64,42" fill="url(#flapGrad)" stroke="#0277BD" stroke-width="1"/>
+  
+  <!-- Flap center line -->
+  <line x1="64" y1="22" x2="64" y2="42" stroke="#0277BD" stroke-width="1.5" opacity="0.5"/>
+  
+  <!-- Tape / seal on front -->
+  <rect x="48" y="42" width="32" height="40" rx="2" ry="2" fill="#FFF" opacity="0.25"/>
+  
+  <!-- B letter -->
+  <text x="64" y="72" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="bold" fill="#FFF" text-anchor="middle" opacity="0.9">B</text>
+  
+  <!-- OX text small -->
+  <text x="64" y="90" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#E1F5FE" text-anchor="middle" opacity="0.8">OX</text>
+  
+  <!-- Small box lines on front -->
+  <line x1="28" y1="52" x2="42" y2="52" stroke="#FFF" stroke-width="1" opacity="0.2"/>
+  <line x1="28" y1="58" x2="38" y2="58" stroke="#FFF" stroke-width="1" opacity="0.2"/>
+  <line x1="86" y1="52" x2="100" y2="52" stroke="#FFF" stroke-width="1" opacity="0.2"/>
+  <line x1="86" y1="58" x2="96" y2="58" stroke="#FFF" stroke-width="1" opacity="0.2"/>
+</svg>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+  <mime-type type="application/x-box">
+    <comment>BOX Archive</comment>
+    <comment xml:lang="hi">BOX संग्रह</comment>
+    <glob pattern="*.box"/>
+    <magic priority="60">
+      <match value="BXOX" type="string" offset="0"/>
+    </magic>
+    <icon name="application-x-box"/>
+  </mime-type>
+</mime-info>
